@@ -1,0 +1,20 @@
+{
+    "name": "nns001-server",
+    "version": "1.0.0",
+    "description": "Nanos Challenge bAckeNd",
+    "main": "server.js",
+    "scripts": {
+        "server": "nodemon -r dotenv/config server.js"
+    },
+    "author": "CAB21x65",
+    "license": "MIT",
+    "private": true,
+    "dependencies": {
+        "cors": "^2.8.5",
+        "express": "^4.17.1",
+        "mongoose": "^5.9.4"
+    },
+    "devDependencies": {
+        "dotenv": "^8.2.0"
+    }
+}
